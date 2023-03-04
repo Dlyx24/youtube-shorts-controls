@@ -1,4 +1,4 @@
-# Youtube-shorts-controls
+# Youtube Shorts Controls
 
 Adds controls to youtube shorts videos.
 
