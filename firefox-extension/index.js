@@ -98,7 +98,6 @@ const addControls = () => {
 var lastHref = document.location.href;
 if (lastHref.includes("/shorts/")) {
   addControls();
-  return;
 } else {
   locationInterval = window.setInterval(function () {
     if (document.location.href !== lastHref) {
