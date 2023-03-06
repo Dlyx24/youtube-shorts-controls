@@ -107,5 +107,5 @@ if (lastHref.includes("/shorts/")) {
         addControls();
       }
     }
-  }, 800);
+  }, 1200);
 }

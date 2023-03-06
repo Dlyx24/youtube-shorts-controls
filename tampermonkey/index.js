@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube shorts controls
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Removes youtube shorts overlay and adds controls so you can go back or forward on the video.
 // @author       Dlyx24
 // @match        https://*.youtube.com/*
@@ -117,5 +117,5 @@ if (lastHref.includes("/shorts/")) {
         addControls();
       }
     }
-  }, 800);
+  }, 1200);
 }
